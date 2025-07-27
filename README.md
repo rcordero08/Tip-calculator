@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Proyecto - React Tips Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React**, **TypeScript** y **Vite**, diseñada para calcular propinas de manera interactiva y eficiente.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
+- **React**: Creación de una interfaz modular e intuitiva.
+- **TypeScript**: Tipado estático para mayor confiabilidad y legibilidad del código.
+- **Vite**: Configuración ligera y build optimizado.
+- **React Hooks**: Gestión de estado y lógica de cálculo (`useState`, `useEffect`).
+- **Custom Hooks**: Lógica encapsulada para el cálculo de propinas y actualización de resultados en tiempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Características principales
+- Cálculo dinámico de propinas y totales.
+- Arquitectura orientada a componentes reutilizables.
+- Buenas prácticas de desarrollo (**Clean Code** y principios **SOLID**).
+- Interfaz rápida y responsiva.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🔗 Demo
+[Ver aplicación en Netlify](https://react-tips-calculate.netlify.app/)
